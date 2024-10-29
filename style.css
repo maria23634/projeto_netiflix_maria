@@ -1,15 +1,23 @@
-body{ 
-    background-color: rgb(208, 151, 255) ; color: black; 
-}
-header {border:solid 2px rgb(148,0,211);
-   padding:20px;
-   font-size:37px;
-   color: rgb(4, 0, 5)}
-.chamada{background-color: rgb(255, 164, 255);
+body{background-color: rgb(0, 0, 0); font-family: "Bebas Neue", sans-serif;
+font-family: "Bebas Neue", sans-serif;
+color:rgb(255, 255, 255);}
+
+header {border-bottom: solid  2px rgb(230, 129, 243);
+padding: 2px;
+font-size: 32px;
+color: rgb(0, 0, 0)}
+
+.chamada{background-color:rgb(255, 255, 255);
 padding-bottom: 80px;
 padding-top: 80px;
+display: flex;
+justify-content: center;}
 
+.chamada-texto{margin-right: 5%;}
+h1{ font-size: 35px;}
+p{font-size: 25px;}
 
+.categorias-video{display:flex;
+overflow-x:auto;
+gap:10px;}
 
-
-}
